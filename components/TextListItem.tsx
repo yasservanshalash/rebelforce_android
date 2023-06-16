@@ -25,11 +25,14 @@ export default function TextListItem(props) {
         <Text>{props.item}</Text>
       </View>
       <View style={{ flexDirection: "row", alignItems: "center", gap: 10 }}>
-        <Text
-          style={{ display: props.index === 6 ? "flex" : "none", color: "red" }}
+        {
+          props.index === 6 ?         <Text
+          style={{ display: props.index === 6 ? "flex" : "none", color: "#FF0000" }}
         >
           Apply to all
-        </Text>
+        </Text> : ""
+        }
+
         <View
           style={{
             width: 32,

@@ -10,7 +10,7 @@ export default function App() {
       <ThemesPage />
       <Create />
       <Highlight />
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </ScrollView>
   );
 }

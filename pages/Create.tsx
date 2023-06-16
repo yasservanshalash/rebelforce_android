@@ -32,6 +32,7 @@ const Create = () => {
         value={text}
         onChangeText={setText}
         style={{
+          width: "85%",
           alignSelf: "center",
           padding: 20,
           backgroundColor: "white",
